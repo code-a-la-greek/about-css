@@ -3,8 +3,8 @@
  ## Περιεχόμενα
 
 1. [Visual rules](./fonts/)
-<!--2. [Multimedia](./multimedia/)
-3. [Forms](./form/)
-4. [Tables](./table/)
+2. [Box model](./box_model/)
+3. [Typography](./typography/)
+<!--4. [Tables](./table/)
 5. [Website](./build-site)
 -->
