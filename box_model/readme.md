@@ -1,14 +1,17 @@
 # Visual Rules
 
-Σε αυτό το [βίντεο](https://youtu.be/AP3cVAvtUqM) εξετάζουμε τη τυπογραφία στο Css.
-Γιατί είναι σημαντικό και τι μπορούμε να αλλάξουμε?
+Σε αυτό το [βίντεο](https://youtu.be/BGqIAwAkKaw) εξετάζουμε το box model στο Css.
+Τί είναι το box model και πώς μπορούμε να το διαχειριστούμε?
 
 Θα αναλύσουμε τις παρακάτω ιδιότητες και τη χρήση τους στο Css:
 
-- text-transform
-- word-spacing
-- letter-spacing
-- line-height
-- Google fonts
-- font-family:system-ui 
-- text-align
+- width & height
+- min/max width & min/max height
+- border
+- border-radius
+- padding
+- margin
+- visibility
+- display
+- overflow
+- reset default model
