@@ -1,0 +1,32 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  line-height: 1.5;
+}
+
+/*POSITION RELATIVE*/
+nav img{
+  position: relative;
+  top: 50px;
+}
+
+/*POSITION ABSOLUTE*/
+nav img{
+  position: absolute;
+  top: 50px;
+  z-index: -1;
+}
+
+/*POSITION FIXED*/
+nav {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+}
+header{
+  padding-bottom: 5rem;
+}

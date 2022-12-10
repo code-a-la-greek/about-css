@@ -1,4 +1,4 @@
-# Visual Rules
+# The Box Model
 
 Σε αυτό το [βίντεο](https://youtu.be/BGqIAwAkKaw) εξετάζουμε το box model στο Css.
 Τί είναι το box model και πώς μπορούμε να το διαχειριστούμε?
