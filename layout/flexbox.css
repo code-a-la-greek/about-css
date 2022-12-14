@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.black {
+  background-color: black;
+  color: white;
+}
+.red {
+  background-color: red;
+  color: black;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: start;
+}
+
+section{
+  /* width: 300px; */
+  flex: 1;
+  min-width: 200px;
+}
