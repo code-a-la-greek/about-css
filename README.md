@@ -5,6 +5,6 @@
 1. [Visual rules](./fonts/)
 2. [Box model](./box_model/)
 3. [Typography](./typography/)
-<!--4. [Tables](./table/)
-5. [Website](./build-site)
+4. [Layouts](./layout/)
+<!--5. [Website](./build-site)
 -->
