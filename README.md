@@ -6,5 +6,4 @@
 2. [Box model](./box_model/)
 3. [Typography](./typography/)
 4. [Layouts](./layout/)
-<!--5. [Website](./build-site)
--->
+5. [Responsive Layout](./responsive)

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: clamp(16px, 0.5rem + 1.25vw, 2rem);
+  max-inline-size: clamp(45ch, 65ch, 75ch);
+  /*clamp(min,ideal,max) */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@media (min-width: 900px) {
+  body {
+    flex-direction: row;
+  }
+  img {
+    max-width: 900px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  html {
+    animation: none;
+    scroll-behavior: auto;
+  }
+}
