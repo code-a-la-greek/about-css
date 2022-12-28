@@ -1,0 +1,72 @@
+@keyframes colors {
+  0% {
+    color: black;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: purple;
+  }
+  100% {
+    color: red;
+  }
+}
+
+h1 {
+  animation: colors 800ms ease-in-out infinite;
+  /*  transition: color 400ms ease-in 2s; */
+}
+
+p::first-letter {
+  font-size: xx-large;
+  padding: 10px;
+}
+p {
+  position: relative;
+}
+p::before {
+  position: absolute;
+  content: '" ';
+}
+p::after {
+  position: absolute;
+  content: '" ';
+}
+
+button {
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem;
+  background-color: lightgray;
+}
+
+/* button:hover {
+  color: whitesmoke;
+  transform: scale(0.98);
+  outline: auto;
+}
+
+button:focus {
+  color: whitesmoke;
+  transform: scale(0.98);
+  outline: auto;
+} */
+
+button:focus-within {
+  color: black;
+  outline: none;
+}
+
+button:is(:hover, :focus) {
+  color: whitesmoke;
+  transform: scale(0.98);
+  outline: auto;
+}
+
+body:has(button) {
+  background-color: lightblue;
+}
