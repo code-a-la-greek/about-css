@@ -21,3 +21,8 @@
 - [transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 - [animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
 - [what can I animate](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+
+## Animation Libraries
+Σε αυτό το [βίντεο](https://youtu.be/unnATduX5Us) δοκιμάζουμε 2 animation βιβλιοθήκες που μας δίνουν τη δυνατότητα να προθέσουμε γρήγορα και εύκολα animations:
+- [animate.css](https://animate.style/)
+- [transition.css](https://www.transition.style/)

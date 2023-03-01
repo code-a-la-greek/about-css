@@ -1,0 +1,14 @@
+/*Animate.css*/
+button:focus-within{
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+
+/*Transition.css*/
+
+p {
+    animation: circle-in-center;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
