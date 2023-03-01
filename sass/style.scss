@@ -1,0 +1,40 @@
+@use "./partials/reset";
+@use "./partials/variables" as var;
+@use "./partials/article";
+
+/*1. Install*/ // Live Sass Compiler vscode-extension
+/*2. Variables*/
+$primary-color: lightblue;
+$secondary-color: darkblue;
+
+body {
+  background-color: var.$primary-color;
+}
+
+/*3. Nesting*/
+article {
+  display: flex;
+  flex-wrap: wrap;
+  h2 {
+    color: var.$secondary-color;
+  }
+}
+
+/*4. Extend classes*/
+%grid {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2rem;
+}
+
+p {
+  @extend h2;
+  max-width: 75ch;
+  color: red;
+}
+
+article {
+  @extend %grid;
+}
+/*5. Partials - Modules*/
+//Χρήση του @use στη κορυφή του αρχείου
